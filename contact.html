@@ -4,21 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Page.</title>
-    <style>
-        a {
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        a:visited {
-            color: blue;
-        }
-        #t2 {
-            width: 300px;
-            height: 200px;
-        }
-    </style>
 </head>
 
 <body>
@@ -32,12 +17,12 @@
 
     <main>
         <form>
-            <label for="t1">Your Name:</label>
-            <input type="text" id="t1" name="name" placeholder="ṅѧṃєʟєśś™"> <br>
-            <label for="e1">Your Email:</label>
-            <input type="email" id="e1" name="email" placeholder="example@gmail.com"> <br>
-            <label for="t2">Your Message:</label> <br>
-            <textarea id="t2" name="message"></textarea> <br>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="ṅѧṃєʟєśś™"> <br>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com"> <br>
+            <label for="message">Your Message:</label> <br>
+            <textarea id="message" name="message" style="width:250px; height:200px;"></textarea> <br>
             <button onclick="alert('Message sent!')">Send Message</button>
         </form>
     </main>
